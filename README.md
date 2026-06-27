@@ -2,8 +2,6 @@
 
 Group 3 course project repository for GUI grounding, GUI agents, and XR GUI grounding.
 
-Author: zhangbo <226653803@qq.com>
-
 ## Overview
 
 This repository contains three related parts:
