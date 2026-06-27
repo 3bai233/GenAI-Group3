@@ -1,0 +1,17 @@
+# Checked against FeedCoG/requirements.txt and FeedCoG/environment.yml.
+# Use the existing FeedCoG environment when possible; this file is the minimal
+# package set needed by Holo2 + BAMI evaluation scripts.
+
+accelerate>=1.7.0
+Pillow>=11.1.0
+pydantic>=2.0.0
+peft>=0.17.0
+qwen-vl-utils>=0.0.10
+torch>=2.5.1
+torchvision>=0.20.1
+tqdm>=4.67.1
+transformers>=4.57.0,<5
+
+# Optional: required only for API judge paths, not for the default local judge.
+openai>=1.0.0
+google-genai>=0.5.0

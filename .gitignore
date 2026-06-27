@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.state.json
+eval_results*/
+**/pipelines/
+.DS_Store
