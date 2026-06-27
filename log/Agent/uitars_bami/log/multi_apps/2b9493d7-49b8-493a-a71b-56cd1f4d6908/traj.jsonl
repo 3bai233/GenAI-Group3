@@ -1,0 +1,3 @@
+{"Error": "multi_apps/2b9493d7-49b8-493a-a71b-56cd1f4d6908 - Setup step 1 failed: _download_setup - Upload failed with status 500"}
+{"Error": "multi_apps/2b9493d7-49b8-493a-a71b-56cd1f4d6908 - Setup step 2 failed: _open_setup - Failed to open file '/home/user/Desktop/15-MB-docx-file-download.docx' after 3 attempts. Last error: HTTPConnectionPool(host='localhost', port=5000): Read timed out. (read timeout=150)"}
+{"step_num": 1, "action_timestamp": "20260529@051917359697", "action": "FAIL", "response": null, "reward": 0, "done": true, "info": {"fail": true}, "screenshot_file": "step_1_20260529@051917359697.png"}

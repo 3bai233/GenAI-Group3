@@ -1,0 +1,32 @@
+Comparison report
+orig_path: /share/home/group3/agent/OSWorld/results_uitars_full/pyautogui/screenshot/ByteDance-Seed/UI-TARS-1.5-7B/vs_code/e2b5e914-ffe1-44d2-8e92-58f8c5d92bb2/traj.jsonl.decoded.jsonl
+bami_path: /share/home/group3/agent/OSWorld/results_uitars_bami_test_all_tuned_v1_resume1/pyautogui/screenshot/ByteDance-Seed/UI-TARS-1.5-7B/vs_code/e2b5e914-ffe1-44d2-8e92-58f8c5d92bb2/bami_traj.jsonl
+
+{
+  "compared_steps": 0,
+  "total_comp_steps_available": 11,
+  "orig_mean": null,
+  "orig_median": null,
+  "orig_max": null,
+  "bami_mean": null,
+  "bami_median": null,
+  "bami_max": null,
+  "mean_improvement": null,
+  "improved_count": 0,
+  "worse_count": 0
+}
+
+Per-step comparisons (where available):
+{'step': 1, 'actual': (1382.4, 167.4), 'orig_pred': (720.0, 155.0), 'bami_pred': None, 'orig_dist': 662.516052635708, 'bami_dist': None}
+{'step': 3, 'actual': (825.0, 732.0), 'orig_pred': None, 'bami_pred': (825.0, 732.0), 'orig_dist': None, 'bami_dist': 0.0}
+{'step': 5, 'actual': (725.466, 603.297), 'orig_pred': None, 'bami_pred': (725.0, 603.0), 'orig_dist': None, 'bami_dist': 0.5525984075257753}
+{'step': 6, 'actual': (993.789, 500.44), 'orig_pred': None, 'bami_pred': (994.0, 500.0), 'orig_dist': None, 'bami_dist': 0.4879764338572134}
+{'step': 7, 'actual': (1405.44, 165.24), 'orig_pred': (732.0, 153.0), 'bami_pred': None, 'orig_dist': 673.5512238872409, 'bami_dist': None}
+{'step': 8, 'actual': (1405.44, 165.24), 'orig_pred': (732.0, 153.0), 'bami_pred': None, 'orig_dist': 673.5512238872409, 'bami_dist': None}
+{'step': 9, 'actual': (1438.08, 165.24), 'orig_pred': (749.0, 153.0), 'bami_pred': None, 'orig_dist': 689.1886998493228, 'bami_dist': None}
+{'step': 10, 'actual': (1438.08, 165.24), 'orig_pred': (749.0, 153.0), 'bami_pred': None, 'orig_dist': 689.1886998493228, 'bami_dist': None}
+{'step': 11, 'actual': (2517.12, 560.52), 'orig_pred': (1311.0, 519.0), 'bami_pred': None, 'orig_dist': 1206.8344396809364, 'bami_dist': None}
+{'step': 12, 'actual': (1405.44, 165.24), 'orig_pred': (732.0, 153.0), 'bami_pred': None, 'orig_dist': 673.5512238872409, 'bami_dist': None}
+{'step': 15, 'actual': (1111.68, 162.0), 'orig_pred': (579.0, 150.0), 'bami_pred': None, 'orig_dist': 532.8151484333006, 'bami_dist': None}
+
+Top improvements (orig_dist - bami_dist):
