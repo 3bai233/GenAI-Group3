@@ -1,0 +1,1783 @@
+/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/google/api_core/_python_version_support.py:263: FutureWarning: You are using a Python version (3.10.12) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+[1;33m[2026-05-24 14:33:14,317 [31mINFO [32mrun_multienv_uitars15_v2/502-MainProcess[1;33m] [0mLeft tasks:
+chrome: 0
+gimp: 0
+libreoffice_calc: 0
+libreoffice_impress: 0
+libreoffice_writer: 6
+multi_apps: 16
+os: 0
+thunderbird: 0
+vlc: 0
+vs_code: 0
+
+Current Success Rate: 17.01048062035694 %
+[1;33m[2026-05-24 14:33:14,995 [31mINFO [32mrun_multienv_uitars15_v2/328-MainProcess[1;33m] [0mArgs: Namespace(path_to_vm=None, headless=False, action_space='pyautogui', observation_type='screenshot', sleep_after_execution=3.0, max_steps=50, test_config_base_dir='evaluation_examples', model='ByteDance-Seed/UI-TARS-1.5-7B', model_type='qwen25vl', temperature=0, top_p=None, max_tokens=3000, use_thinking=False, max_trajectory_length=None, max_image_history_length=5, language='Chinese', domain='all', test_all_meta_path='evaluation_examples/test_all.json', result_dir='./results_uitars_repro_1', num_envs=2, log_level='INFO', region='us-east-1', provider_name='docker', client_password='', screen_width=1920, screen_height=1080)
+[1;33m[2026-05-24 14:33:14,996 [31mINFO [32mrun_multienv_uitars15_v2/330-MainProcess[1;33m] [0mTotal tasks: 22
+[1;33m[2026-05-24 14:33:15,023 [31mINFO [32mrun_multienv_uitars15_v2/347-MainProcess[1;33m] [0mStarted process EnvProcess-1 with PID 2001017
+[1;33m[2026-05-24 14:33:15,030 [31mINFO [32mrun_multienv_uitars15_v2/347-MainProcess[1;33m] [0mStarted process EnvProcess-2 with PID 2001020
+[1;33m[2026-05-24 14:33:15,412 [31mINFO [32mmanager/129-EnvProcess-2[1;33m] [0mUsing HF mirror: https://hf-mirror.com/datasets/xlangai/ubuntu_osworld/resolve/main/Ubuntu.qcow2.zip
+[1;33m[2026-05-24 14:33:15,412 [31mINFO [32mmanager/129-EnvProcess-1[1;33m] [0mUsing HF mirror: https://hf-mirror.com/datasets/xlangai/ubuntu_osworld/resolve/main/Ubuntu.qcow2.zip
+[1;33m[2026-05-24 14:33:15,412 [31mINFO [32mdesktop_env/183-EnvProcess-1[1;33m] [0mInitializing...
+[1;33m[2026-05-24 14:33:15,412 [31mINFO [32mdesktop_env/183-EnvProcess-2[1;33m] [0mInitializing...
+[1;33m[2026-05-24 14:33:15,719 [31mINFO [32mprovider/186-EnvProcess-2[1;33m] [0mKVM device found, using hardware acceleration
+[1;33m[2026-05-24 14:33:15,998 [31mINFO [32mprovider/211-EnvProcess-2[1;33m] [0mStarted container from image my-osworld-docker:clip with ports - VNC: 8009, Server: 5003, Chrome: 9225, VLC: 8083
+[1;33m[2026-05-24 14:33:16,000 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:16,181 [31mINFO [32mprovider/186-EnvProcess-1[1;33m] [0mKVM device found, using hardware acceleration
+[1;33m[2026-05-24 14:33:16,434 [31mINFO [32mprovider/211-EnvProcess-1[1;33m] [0mStarted container from image my-osworld-docker:clip with ports - VNC: 8014, Server: 5008, Chrome: 9230, VLC: 8089
+[1;33m[2026-05-24 14:33:16,436 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:17,003 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:17,438 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:21,063 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:21,511 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:23,527 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:24,530 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:25,095 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:25,532 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:26,098 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:26,535 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:27,101 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:27,538 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:28,103 [31mINFO [32mprovider/84-EnvProcess-2[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:28,540 [31mINFO [32mprovider/84-EnvProcess-1[1;33m] [0mChecking if virtual machine is ready...
+[1;33m[2026-05-24 14:33:36,346 [31mINFO [32mprovider/155-EnvProcess-2[1;33m] [0mVM prerequisites installed (xclip + bookmarks backup)
+[1;33m[2026-05-24 14:33:36,347 [31mINFO [32mrun_multienv_uitars15_v2/208-EnvProcess-2[1;33m] [0mProcess EnvProcess-2 started.
+[1;33m[2026-05-24 14:33:36,350 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:33:36,350 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 0a0faba3-5580-44df-965d-f562a99b291c
+[1;33m[2026-05-24 14:33:36,350 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: I would like to make the first three words of the sentence left-aligned and the rest right-aligned. I basically want to have some empty space in the middle to add some photos. Assume that every sentence will have at least three words. Could you help me on alignment for me using tabstops?
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:33:36,351 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:33:36,727 [31mINFO [32mprovider/155-EnvProcess-1[1;33m] [0mVM prerequisites installed (xclip + bookmarks backup)
+[1;33m[2026-05-24 14:33:36,727 [31mINFO [32mrun_multienv_uitars15_v2/208-EnvProcess-1[1;33m] [0mProcess EnvProcess-1 started.
+[1;33m[2026-05-24 14:33:36,730 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:33:36,730 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 66399b0d-8fda-4618-95c4-bfc6191617e9
+[1;33m[2026-05-24 14:33:36,730 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Could you help me insert a 7(columns)*5(rows) empty table at the point of cursor?
+[1;33m[2026-05-24 14:33:36,730 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:33:36,731 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:33:36,731 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:33:36,731 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:33:36,731 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:33:36,731 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:33:38,903 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/3: _download_setup
+[1;33m[2026-05-24 14:33:38,904 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading Table_Of_Work_Effort_Instructions.docx to VM at /home/user/Desktop/Table_Of_Work_Effort_Instructions.docx
+[1;33m[2026-05-24 14:33:40,175 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:33:40,176 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading 04 CHIN9505 EBook Purchasing info 2021 Jan.docx to VM at /home/user/Desktop/04 CHIN9505 EBook Purchasing info 2021 Jan.docx
+[1;33m[2026-05-24 14:33:41,739 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/Table_Of_Work_Effort_Instructions.docx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:33:41,740 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/Table_Of_Work_Effort_Instructions.docx: Upload failed with status 502
+[1;33m[2026-05-24 14:33:41,740 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/3: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/66399b0d-8fda-4618-95c4-bfc6191617e9/Table_Of_Work_Effort_Instructions.docx', 'path': '/home/user/Desktop/Table_Of_Work_Effort_Instructions.docx'}]})
+[1;33m[2026-05-24 14:33:41,740 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:33:41,741 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:33:41,741 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 libreoffice_writer/66399b0d-8fda-4618-95c4-bfc6191617e9: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:33:41,741 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:33:43,355 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Desktop/04 CHIN9505 EBook Purchasing info 2021 Jan.docx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:33:43,355 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/04 CHIN9505 EBook Purchasing info 2021 Jan.docx: Upload failed with status 502
+[1;33m[2026-05-24 14:33:43,356 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/0a0faba3-5580-44df-965d-f562a99b291c/04%20CHIN9505%20EBook%20Purchasing%20info%202021%20Jan.docx', 'path': '/home/user/Desktop/04 CHIN9505 EBook Purchasing info 2021 Jan.docx'}]})
+[1;33m[2026-05-24 14:33:43,356 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:33:43,358 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:33:43,358 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 libreoffice_writer/0a0faba3-5580-44df-965d-f562a99b291c: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:33:43,359 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:33:45,773 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:33:45,774 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:33:46,182 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:33:46,182 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:33:53,152 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:33:53,152 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:33:55,151 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:33:55,151 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:02,052 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:02,052 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:02,434 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:02,435 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:07,055 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:34:07,057 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:34:07,057 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 6a33f9b9-0a56-4844-9c3f-96ec3ffb3ba2
+[1;33m[2026-05-24 14:34:07,057 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: I have been editing my document and some words that needed to be rewritten are highlighted in yellow. As I fixed those words, please help me remove all highlight. I want to make sure that there is no highlight word.
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:34:07,058 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:34:07,440 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:34:07,443 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:34:07,443 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 6ada715d-3aae-4a32-a6a7-429b2e43fb93
+[1;33m[2026-05-24 14:34:07,443 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Copy the screenshot 1.png from the desktop to where my cursor is located
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:34:07,444 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:34:10,151 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:34:10,151 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading sample-recruitment-phone-script.odt to VM at /home/user/Desktop/sample-recruitment-phone-script.odt
+[1;33m[2026-05-24 14:34:10,352 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/4: _download_setup
+[1;33m[2026-05-24 14:34:10,352 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading Viewing_Your_Class_Schedule_and_Textbooks.docx to VM at /home/user/Desktop/Viewing_Your_Class_Schedule_and_Textbooks.docx
+[1;33m[2026-05-24 14:34:13,710 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/sample-recruitment-phone-script.odt. Status code: 502, Response: 
+[1;33m[2026-05-24 14:34:13,710 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/sample-recruitment-phone-script.odt: Upload failed with status 502
+[1;33m[2026-05-24 14:34:13,711 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/6a33f9b9-0a56-4844-9c3f-96ec3ffb3ba2/sample-recruitment-phone-script.odt', 'path': '/home/user/Desktop/sample-recruitment-phone-script.odt'}]})
+[1;33m[2026-05-24 14:34:13,711 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:34:13,711 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:13,711 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 libreoffice_writer/6a33f9b9-0a56-4844-9c3f-96ec3ffb3ba2: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:34:13,711 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:14,295 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Desktop/Viewing_Your_Class_Schedule_and_Textbooks.docx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/Viewing_Your_Class_Schedule_and_Textbooks.docx: Upload failed with status 502
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/4: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/6ada715d-3aae-4a32-a6a7-429b2e43fb93/Viewing_Your_Class_Schedule_and_Textbooks.docx', 'path': '/home/user/Desktop/Viewing_Your_Class_Schedule_and_Textbooks.docx'}]})
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 libreoffice_writer/6ada715d-3aae-4a32-a6a7-429b2e43fb93: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:34:14,296 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:16,129 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:16,129 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:17,662 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:17,663 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:24,724 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:24,724 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:26,481 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:26,481 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:32,713 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:32,713 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:34,792 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:34,792 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:37,718 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:34:37,722 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:34:37,722 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 936321ce-5236-426a-9a20-e0e3c5dc536f
+[1;33m[2026-05-24 14:34:37,722 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Could you help me convert the text seperated by commas to a table?
+[1;33m[2026-05-24 14:34:37,722 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:34:37,722 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:34:37,723 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:34:37,723 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:34:37,723 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:34:37,723 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:34:39,797 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: libreoffice_writer
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: adf5e2c3-64c7-4644-b7b6-d2f0167927e7
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Help me adding "Steinberg, F. M., Bearden, M. M., & Keen, C. L. (2003). Cocoa and chocolate flavonoids: Implications for cardiovascular health. Journal of the American Dietetic Association, 103(2), 215-223. doi: 10.1053/jada.2003.50028" to my reference list, and add a cross reference (using reference number) in the fourth paragraph where I marked "<add here>".
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:34:39,800 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:34:39,801 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:34:39,801 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:34:39,801 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:34:41,173 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:34:41,174 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading Graphemes_Sound_Letter_Patterns.docx to VM at /home/user/Desktop/Graphemes_Sound_Letter_Patterns.docx
+[1;33m[2026-05-24 14:34:42,840 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:34:42,840 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading Essay_Writing_English_for_uni.docx to VM at /home/user/Desktop/Essay_Writing_English_for_uni.docx
+[1;33m[2026-05-24 14:34:43,969 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/Graphemes_Sound_Letter_Patterns.docx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:34:43,969 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/Graphemes_Sound_Letter_Patterns.docx: Upload failed with status 502
+[1;33m[2026-05-24 14:34:43,969 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/936321ce-5236-426a-9a20-e0e3c5dc536f/Graphemes_Sound_Letter_Patterns.docx', 'path': '/home/user/Desktop/Graphemes_Sound_Letter_Patterns.docx'}]})
+[1;33m[2026-05-24 14:34:43,970 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:34:43,970 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:43,970 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 libreoffice_writer/936321ce-5236-426a-9a20-e0e3c5dc536f: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:34:43,970 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Desktop/Essay_Writing_English_for_uni.docx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/Essay_Writing_English_for_uni.docx: Upload failed with status 502
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/libreoffice_writer/adf5e2c3-64c7-4644-b7b6-d2f0167927e7/Essay_Writing_English_for_uni.docx', 'path': '/home/user/Desktop/Essay_Writing_English_for_uni.docx'}]})
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:46,057 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 libreoffice_writer/adf5e2c3-64c7-4644-b7b6-d2f0167927e7: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:34:46,058 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:34:47,818 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:47,819 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:49,243 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:49,243 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:55,752 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:55,752 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:34:58,093 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:34:58,093 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:35:03,871 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:35:03,872 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:35:06,889 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:35:06,889 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:35:08,877 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:35:08,878 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:35:08,878 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 46407397-a7d5-4c6b-92c6-dbe038b1457b
+[1;33m[2026-05-24 14:35:08,878 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Help me export charts, graph or other images from docx files received in email "Lecture Document" in Notes folder and upload these png files to the figures/ folder in Google Drive for later use (use numbers to name them).
+[1;33m[2026-05-24 14:35:08,878 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:35:08,879 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:35:08,879 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:35:08,879 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:35:11,892 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:35:11,893 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:35:11,893 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 4e9f0faf-2ecc-4ae8-a804-28c9a75d1ddc
+[1;33m[2026-05-24 14:35:11,893 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Could you help me extract data in the table from a new invoice uploaded to my Google Drive, then export it to a Libreoffice calc .xlsx file in the desktop?
+[1;33m[2026-05-24 14:35:11,894 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:35:11,894 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:35:11,894 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:35:11,894 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:35:12,022 [31mINFO [32msetup/603-EnvProcess-1[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:35:15,230 [31mINFO [32msetup/603-EnvProcess-2[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:35:15,379 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:17,733 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:19,437 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:21,834 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:22,723 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:24,983 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:25,394 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:27,710 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:28,530 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:30,719 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:32,487 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:33,997 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:35,069 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:37,654 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:37,700 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:40,809 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:40,809 [31mINFO [32msetup/378-EnvProcess-1[1;33m] [0mREQUEST ADDRESS: http://localhost:5008/setup/launch
+[1;33m[2026-05-24 14:35:41,352 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:43,046 [31mERROR [32msetup/383-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:43,047 [31mINFO [32msetup/634-EnvProcess-1[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:35:43,047 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:35:43,047 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:35:44,210 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:44,210 [31mINFO [32msetup/378-EnvProcess-2[1;33m] [0mREQUEST ADDRESS: http://localhost:5003/setup/launch
+[1;33m[2026-05-24 14:35:45,325 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/8: _googledrive_setup
+/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access evaluation_examples/settings/googledrive/credentials.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+[1;33m[2026-05-24 14:35:45,326 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/8: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'figures' and 'root' in parents and mimeType = 'application/vnd.google-apps.folder'", 'trash': False}]})
+[1;33m[2026-05-24 14:35:45,326 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:35:45,327 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:35:45,327 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/46407397-a7d5-4c6b-92c6-dbe038b1457b: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:35:45,327 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:35:46,858 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:35:46,858 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:35:47,731 [31mERROR [32msetup/383-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:35:47,731 [31mINFO [32msetup/634-EnvProcess-2[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:35:47,731 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:35:47,731 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:35:50,633 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/5: _googledrive_setup
+/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access evaluation_examples/settings/googledrive/credentials.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+[1;33m[2026-05-24 14:35:50,634 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/5: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete', 'upload'], 'args': [{'query': "title = 'invoice.pdf'", 'trash': False}, {'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/4e9f0faf-2ecc-4ae8-a804-28c9a75d1ddc/invoice.pdf', 'path': ['invoice.pdf']}]})
+[1;33m[2026-05-24 14:35:50,634 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:35:50,635 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:35:50,635 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/4e9f0faf-2ecc-4ae8-a804-28c9a75d1ddc: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:35:50,635 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:35:53,611 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:35:53,611 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:35:54,788 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:35:54,788 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:00,647 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:00,647 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:02,892 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:02,892 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:07,898 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 78aed49a-a710-4321-a793-b611a7c5b56b
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Could you help me save all attachments of the oldest email in Bills local folders to the attachment/ folder in Google Drive and then move this email to a different folder "have_seen" in Local Folders.
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:36:07,899 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:36:08,325 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:08,325 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:11,268 [31mINFO [32msetup/603-EnvProcess-1[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:36:13,331 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 897e3b53-5d4d-444b-85cb-2cdc8a97d903
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: I have a LibreOffice Writer file form.docx on the desktop. Help me convert it to PDF format and store the PDF in the forms/ folder in my Google Drive.
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:36:13,332 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:36:13,928 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:15,936 [31mINFO [32msetup/603-EnvProcess-2[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:36:17,636 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:19,591 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:22,222 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:23,314 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:25,908 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:26,279 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:28,954 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:29,420 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:31,920 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:32,497 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:35,467 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:36,460 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:37,830 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:38,918 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:39,876 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:39,877 [31mINFO [32msetup/378-EnvProcess-1[1;33m] [0mREQUEST ADDRESS: http://localhost:5008/setup/launch
+[1;33m[2026-05-24 14:36:41,159 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:42,566 [31mERROR [32msetup/383-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:42,566 [31mINFO [32msetup/634-EnvProcess-1[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:36:42,566 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:36:42,566 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:36:43,979 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:43,980 [31mINFO [32msetup/378-EnvProcess-2[1;33m] [0mREQUEST ADDRESS: http://localhost:5003/setup/launch
+[1;33m[2026-05-24 14:36:44,923 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/8: _googledrive_setup
+[1;33m[2026-05-24 14:36:44,924 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/8: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'attachment' and 'root' in parents and trashed = false", 'trash': False}]})
+[1;33m[2026-05-24 14:36:44,924 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:36:44,924 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:36:44,924 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/78aed49a-a710-4321-a793-b611a7c5b56b: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:36:44,924 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:36:47,262 [31mERROR [32msetup/383-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:36:47,262 [31mINFO [32msetup/634-EnvProcess-2[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:36:47,262 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:36:47,262 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:36:47,871 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:47,871 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:50,262 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/7: _googledrive_setup
+[1;33m[2026-05-24 14:36:50,263 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/7: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'form.pdf' or title = 'form.docx' or title = 'form.docx.pdf' or title = 'forms'", 'trash': False}]})
+[1;33m[2026-05-24 14:36:50,263 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:36:50,263 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:36:50,263 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/897e3b53-5d4d-444b-85cb-2cdc8a97d903: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:36:50,264 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:36:54,319 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:54,319 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:36:55,789 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:36:55,789 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:02,279 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:02,279 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:04,361 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:04,361 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:09,366 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:37:09,367 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:37:09,367 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: a0b9dc9c-fc07-4a88-8c5d-5e3ecad91bcb
+[1;33m[2026-05-24 14:37:09,368 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Please help me backup my emails in "Bills" folder in Thunderbird and store the .eml files with only subject names to my Google Drive folder called "emails".
+[1;33m[2026-05-24 14:37:09,368 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:37:09,368 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:37:09,368 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:37:09,368 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:37:10,492 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:10,492 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:12,571 [31mINFO [32msetup/603-EnvProcess-1[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:37:15,493 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:37:15,494 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:37:15,494 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: b52b40a5-ad70-4c53-b5b0-5650a8387052
+[1;33m[2026-05-24 14:37:15,494 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Could you help me merge all PDF files in the "Paper Recommendation" email attachment in Thunderbird into one file and upload it to attachment_full.pdf in Google Drive?
+[1;33m[2026-05-24 14:37:15,494 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:37:15,494 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:37:15,495 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:37:15,495 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:37:15,658 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:17,476 [31mINFO [32msetup/603-EnvProcess-2[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:37:18,242 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:20,460 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:21,705 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:24,352 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:25,094 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:27,201 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:28,404 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:30,155 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:32,035 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:33,422 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:34,064 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:36,941 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:37,101 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:39,729 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:40,012 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:40,012 [31mINFO [32msetup/378-EnvProcess-1[1;33m] [0mREQUEST ADDRESS: http://localhost:5008/setup/launch
+[1;33m[2026-05-24 14:37:43,443 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:43,514 [31mERROR [32msetup/383-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:43,515 [31mINFO [32msetup/634-EnvProcess-1[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:37:43,515 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:37:43,515 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:37:46,684 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/8: _googledrive_setup
+[1;33m[2026-05-24 14:37:46,685 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/8: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'emails' and 'root' in parents", 'trash': False}]})
+[1;33m[2026-05-24 14:37:46,685 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:37:46,685 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:37:46,685 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/a0b9dc9c-fc07-4a88-8c5d-5e3ecad91bcb: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:37:46,686 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:37:47,369 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:47,369 [31mINFO [32msetup/378-EnvProcess-2[1;33m] [0mREQUEST ADDRESS: http://localhost:5003/setup/launch
+[1;33m[2026-05-24 14:37:50,002 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:50,002 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:50,351 [31mERROR [32msetup/383-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:37:50,351 [31mINFO [32msetup/634-EnvProcess-2[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:37:50,351 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:37:50,351 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:37:53,870 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/8: _googledrive_setup
+[1;33m[2026-05-24 14:37:53,870 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/8: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'attachment_full.pdf' and 'root' in parents", 'trash': False}]})
+[1;33m[2026-05-24 14:37:53,870 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:37:53,870 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:37:53,871 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/b52b40a5-ad70-4c53-b5b0-5650a8387052: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:37:53,871 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:37:57,492 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:57,493 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:37:58,446 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:37:58,446 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:04,921 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:04,921 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:06,784 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:06,784 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:11,789 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:38:11,790 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: ee9a3c83-f437-4879-8918-be5efbb9fac7
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Could you help me convert the opened ods file in the desktop to csv file with the same file name using command line when Libreoffice instance is running?
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:38:11,791 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:38:13,503 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:13,504 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:13,523 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/4: _download_setup
+[1;33m[2026-05-24 14:38:13,523 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading file_example_ODS_5000.ods to VM at /home/user/Desktop/file_example_ODS_5000.ods
+[1;33m[2026-05-24 14:38:16,564 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/file_example_ODS_5000.ods. Status code: 502, Response: 
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/file_example_ODS_5000.ods: Upload failed with status 502
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/4: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/ee9a3c83-f437-4879-8918-be5efbb9fac7/file_example_ODS_5000.ods', 'path': '/home/user/Desktop/file_example_ODS_5000.ods'}]})
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/ee9a3c83-f437-4879-8918-be5efbb9fac7: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:38:16,565 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:38:18,508 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:38:18,509 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:38:18,509 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: f8cfa149-d1c1-4215-8dac-4a0932bad3c2
+[1;33m[2026-05-24 14:38:18,509 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Could you help me copy the data in Cell B6 in this Libreoffice Calc file and search it in the Chrome browser.
+[1;33m[2026-05-24 14:38:18,510 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:38:18,510 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:38:18,510 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:38:18,510 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:38:19,190 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:19,190 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:21,284 [31mINFO [32msetup/603-EnvProcess-2[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:38:24,527 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:26,326 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:26,326 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:27,329 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:29,961 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:32,733 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:34,899 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:34,900 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:36,600 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:39,740 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:39,903 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:38:39,905 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:38:39,905 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 0c825995-5b70-4526-b663-113f4c999dd2
+[1;33m[2026-05-24 14:38:39,905 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: I'm working on a comprehensive report for our environmental policy review meeting next week. I need to integrate key insights from an important document, which is a guidebook on the Green Economy, where I'm particularly interested in the 'Introduction' section. Could you extract this section and compile them into a new Google Doc named 'environment_policy_report (draft)' under /environment_policy folder? This will significantly aid in our discussion on aligning our environmental policies with sustainable and green economic practices. Thanks!
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:38:39,906 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:38:42,588 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/6: _googledrive_setup
+[1;33m[2026-05-24 14:38:42,589 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/6: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete'], 'args': [{'query': "title = 'environment_policy_report (draft).doc' or title = 'environment_policy_report (draft).docx' or title = 'environment_policy_report (draft)'", 'trash': False}]})
+[1;33m[2026-05-24 14:38:42,589 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:38:42,589 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:38:42,589 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/0c825995-5b70-4526-b663-113f4c999dd2: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:38:42,589 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:38:42,838 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:44,902 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:44,902 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:46,288 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:49,662 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:49,662 [31mINFO [32msetup/378-EnvProcess-2[1;33m] [0mREQUEST ADDRESS: http://localhost:5003/setup/launch
+[1;33m[2026-05-24 14:38:52,263 [31mERROR [32msetup/383-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:38:52,263 [31mINFO [32msetup/634-EnvProcess-2[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:38:52,263 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:38:52,263 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:38:53,158 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:38:53,159 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:38:55,489 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/5: _download_setup
+[1;33m[2026-05-24 14:38:55,489 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading cell_search.xls to VM at /home/user/cell_search.xls
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/cell_search.xls. Status code: 502, Response: 
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/cell_search.xls: Upload failed with status 502
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/5: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/f8cfa149-d1c1-4215-8dac-4a0932bad3c2/file.xls', 'path': '/home/user/cell_search.xls'}]})
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:38:58,786 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/f8cfa149-d1c1-4215-8dac-4a0932bad3c2: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:38:58,787 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:01,172 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:01,173 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:02,484 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:02,484 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:06,178 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:39:06,183 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:39:06,183 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: c7c1e4c3-9e92-4eba-a4b8-689953975ea4
+[1;33m[2026-05-24 14:39:06,183 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: I am collecting the contact information of some professors and have their homepage links listed here. Assist me in completing the form by adding their respective email addresses.
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:39:06,184 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:39:09,800 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/4: _launch_setup
+[1;33m[2026-05-24 14:39:09,800 [31mINFO [32msetup/378-EnvProcess-1[1;33m] [0mREQUEST ADDRESS: http://localhost:5008/setup/launch
+[1;33m[2026-05-24 14:39:10,929 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:10,929 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:11,775 [31mERROR [32msetup/383-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:39:11,776 [31mINFO [32msetup/102-EnvProcess-1[1;33m] [0mSETUP COMPLETED: _launch_setup({'command': ['google-chrome', '--remote-debugging-port=1337']})
+[1;33m[2026-05-24 14:39:11,776 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 2/4: _launch_setup
+[1;33m[2026-05-24 14:39:11,776 [31mINFO [32msetup/378-EnvProcess-1[1;33m] [0mREQUEST ADDRESS: http://localhost:5008/setup/launch
+[1;33m[2026-05-24 14:39:14,944 [31mERROR [32msetup/383-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:39:14,945 [31mINFO [32msetup/102-EnvProcess-1[1;33m] [0mSETUP COMPLETED: _launch_setup({'command': ['socat', 'tcp-listen:9222,fork', 'tcp:localhost:1337']})
+[1;33m[2026-05-24 14:39:14,945 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 3/4: _download_setup
+[1;33m[2026-05-24 14:39:14,945 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading Professor_Contact.xlsx to VM at /home/user/Desktop/Professor_Contact.xlsx
+[1;33m[2026-05-24 14:39:17,723 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/Professor_Contact.xlsx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:39:17,723 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/Professor_Contact.xlsx: Upload failed with status 502
+[1;33m[2026-05-24 14:39:17,723 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 3/4: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/c7c1e4c3-9e92-4eba-a4b8-689953975ea4/Professor_Contact.xlsx', 'path': '/home/user/Desktop/Professor_Contact.xlsx'}]})
+[1;33m[2026-05-24 14:39:17,723 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:39:17,723 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:17,724 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/c7c1e4c3-9e92-4eba-a4b8-689953975ea4: Setup step 3 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:39:17,724 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 3 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:18,824 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:18,824 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:20,771 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:20,771 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:23,827 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:39:23,830 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:39:23,830 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: deec51c9-3b1e-4b9e-993c-4776f20e8bb2
+[1;33m[2026-05-24 14:39:23,830 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Find a paper list of all the new foundation language models issued on 11st Oct. 2023 via arxiv daily, and organize it into the sheet I opened.
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:39:23,831 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:39:26,989 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:39:26,990 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading New Large Language Models.xlsx to VM at /home/user/Desktop/New Large Language Models.xlsx
+[1;33m[2026-05-24 14:39:29,028 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:29,028 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:30,334 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Desktop/New Large Language Models.xlsx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:39:30,334 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/New Large Language Models.xlsx: Upload failed with status 502
+[1;33m[2026-05-24 14:39:30,335 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'path': '/home/user/Desktop/New Large Language Models.xlsx', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/deec51c9-3b1e-4b9e-993c-4776f20e8bb2/New%20Large%20Language%20Models.xlsx'}]})
+[1;33m[2026-05-24 14:39:30,335 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:39:30,335 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:30,335 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/deec51c9-3b1e-4b9e-993c-4776f20e8bb2: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:39:30,335 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:32,082 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:32,082 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:37,023 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:37,023 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:40,690 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:40,690 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:42,027 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:39:42,031 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:39:42,031 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 8e116af7-7db7-4e35-a68b-b0939c066c78
+[1;33m[2026-05-24 14:39:42,032 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Please update my bookkeeping sheet with the recent transactions from the provided folder, detailing my expenses over the past few days.
+[1;33m[2026-05-24 14:39:42,032 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:39:42,032 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:39:42,032 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:39:42,032 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:39:42,033 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:39:42,033 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:39:44,832 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:39:44,832 [31mINFO [32msetup/177-EnvProcess-1[1;33m] [0mUploading my_bookkeeping.xlsx to VM at /home/user/Desktop/my_bookkeeping.xlsx
+[1;33m[2026-05-24 14:39:47,791 [31mERROR [32msetup/184-EnvProcess-1[1;33m] [0mFailed to upload file /home/user/Desktop/my_bookkeeping.xlsx. Status code: 502, Response: 
+[1;33m[2026-05-24 14:39:47,791 [31mERROR [32msetup/187-EnvProcess-1[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/my_bookkeeping.xlsx: Upload failed with status 502
+[1;33m[2026-05-24 14:39:47,791 [31mERROR [32msetup/104-EnvProcess-1[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'path': '/home/user/Desktop/my_bookkeeping.xlsx', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/my_bookkeeping.xlsx'}, {'path': '/home/user/Desktop/receipt_0.jpeg', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_0.jpeg'}, {'path': '/home/user/Desktop/receipt_1.jpg', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_1.jpg'}, {'path': '/home/user/Desktop/receipt_2.jpg', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_2.jpg'}, {'path': '/home/user/Desktop/receipt_3.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_3.pdf'}, {'path': '/home/user/Desktop/receipt_4.jpg', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78/receipt_4.jpg'}]})
+[1;33m[2026-05-24 14:39:47,791 [31mERROR [32msetup/105-EnvProcess-1[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:39:47,791 [31mERROR [32msetup/106-EnvProcess-1[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:47,792 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:39:47,792 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:39:48,596 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:48,597 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:50,922 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:50,923 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:53,598 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:39:53,601 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:39:53,601 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 881deb30-9549-4583-a841-8270c65f2a17
+[1;33m[2026-05-24 14:39:53,601 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: I want to find a faculty job in Hong Kong, so I am more curious about the "Early Career Scheme" of those schools is better to apply, please help me to count all the documents in the ecs pdf files in my hand, and organize the pass rate of each school by year into table!
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:39:53,602 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:39:55,720 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/6: _command_setup
+[1;33m[2026-05-24 14:39:58,617 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:39:58,617 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:39:59,416 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:39:59,416 [31mINFO [32msetup/102-EnvProcess-2[1;33m] [0mSETUP COMPLETED: _command_setup({'command': ['mkdir', '-p', '/home/user/Documents/Fundings/ecs', '/home/user/Documents/Fundings/grf']})
+[1;33m[2026-05-24 14:39:59,416 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 2/6: _download_setup
+[1;33m[2026-05-24 14:39:59,417 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading ecs15.pdf to VM at /home/user/Documents/Fundings/ecs/ecs15.pdf
+[1;33m[2026-05-24 14:40:03,024 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Documents/Fundings/ecs/ecs15.pdf. Status code: 502, Response: 
+[1;33m[2026-05-24 14:40:03,024 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Documents/Fundings/ecs/ecs15.pdf: Upload failed with status 502
+[1;33m[2026-05-24 14:40:03,025 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 2/6: _download_setup({'files': [{'path': '/home/user/Documents/Fundings/ecs/ecs15.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs15.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs16.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs16.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs17.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs17.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs23.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs23.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs22.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs22.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs21.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs21.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs20.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs20.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs19.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs19.pdf'}, {'path': '/home/user/Documents/Fundings/ecs/ecs18.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/ecs18.pdf'}, {'path': '/home/user/Documents/Fundings/grf/customer-information-sheet-for-inward-payments-to-hong-kong.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/customer-information-sheet-for-inward-payments-to-hong-kong.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf15.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf15.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf16.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf16.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf17.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf17.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf18.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf18.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf19.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf19.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf20.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf20.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf21.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf21.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf22.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf22.pdf'}, {'path': '/home/user/Documents/Fundings/grf/grf23.pdf', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/grf23.pdf'}, {'path': '/home/user/Documents/Fundings/supported_rate.xlsx', 'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/881deb30-9549-4583-a841-8270c65f2a17/supported_rate.xlsx'}]})
+[1;33m[2026-05-24 14:40:03,025 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:40:03,025 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:40:03,025 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/881deb30-9549-4583-a841-8270c65f2a17: Setup step 2 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:40:03,025 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 2 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:40:06,492 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:06,492 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:06,813 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:06,814 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:11,817 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:40:11,821 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-1[1;33m] [0m[EnvProcess-1][Domain]: multi_apps
+[1;33m[2026-05-24 14:40:11,821 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-1[1;33m] [0m[EnvProcess-1][Example ID]: 3c8f201a-009d-4bbe-8b65-a6f8b35bb57f
+[1;33m[2026-05-24 14:40:11,821 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-1[1;33m] [0m[EnvProcess-1][Instruction]: Download the image from "https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/3c8f201a-009d-4bbe-8b65-a6f8b35bb57f/kingbird.jpeg", and then use GIMP to compress it to under 600KB as "compressed.jpeg" on the Desktop. Resize if needed.
+[1;33m[2026-05-24 14:40:11,821 [31mINFO [32mdesktop_env/245-EnvProcess-1[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:40:11,822 [31mINFO [32mdesktop_env/246-EnvProcess-1[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:40:11,822 [31mINFO [32mdesktop_env/247-EnvProcess-1[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:40:11,822 [31mINFO [32mdesktop_env/276-EnvProcess-1[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:40:11,822 [31mINFO [32mdesktop_env/284-EnvProcess-1[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:40:11,822 [31mINFO [32msetup/74-EnvProcess-1[1;33m] [0mtry to connect http://localhost:5008
+[1;33m[2026-05-24 14:40:14,403 [31mINFO [32msetup/99-EnvProcess-1[1;33m] [0mExecuting setup step 1/1: _execute_setup
+[1;33m[2026-05-24 14:40:15,088 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:15,089 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:17,511 [31mERROR [32msetup/446-EnvProcess-1[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:40:17,511 [31mINFO [32msetup/102-EnvProcess-1[1;33m] [0mSETUP COMPLETED: _execute_setup({'command': ['python', '-c', 'import pyautogui; import time; pyautogui.hotkey("ctrl", "alt", "t"); time.sleep(0.5);']})
+[1;33m[2026-05-24 14:40:17,512 [31mINFO [32mdesktop_env/301-EnvProcess-1[1;33m] [0mEnvironment setup complete.
+[1;33m[2026-05-24 14:40:20,204 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:40:20,204 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:40:23,391 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:23,391 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:28,395 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: d68204bf-11c1-4b13-b48b-d303c73d4bf6
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Divide my image vertically into three equal sections with command line. Then rearrange them in order with a gradient of warm tones, progressively becoming warmer from left to right as a new image "rearranged.png".
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:40:28,399 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:40:28,400 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:40:28,400 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:40:28,576 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:40:28,576 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:40:32,035 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/2: _download_setup
+[1;33m[2026-05-24 14:40:32,036 [31mINFO [32msetup/177-EnvProcess-2[1;33m] [0mUploading tilearray.png to VM at /home/user/Desktop/tilearray.png
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32msetup/184-EnvProcess-2[1;33m] [0mFailed to upload file /home/user/Desktop/tilearray.png. Status code: 502, Response: 
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32msetup/187-EnvProcess-2[1;33m] [0mAn error occurred while trying to upload /home/user/Desktop/tilearray.png: Upload failed with status 502
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/2: _download_setup({'files': [{'url': 'https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_file_cache/resolve/main/multi_apps/d68204bf-11c1-4b13-b48b-d303c73d4bf6/tilearray.png', 'path': '/home/user/Desktop/tilearray.png'}]})
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Upload failed with status 502
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/d68204bf-11c1-4b13-b48b-d303c73d4bf6: Setup step 1 failed: _download_setup - Upload failed with status 502
+[1;33m[2026-05-24 14:40:35,029 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 185, in _download_setup
+    raise requests.RequestException(f"Upload failed with status {response.status_code}")
+requests.exceptions.RequestException: Upload failed with status 502
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _download_setup - Upload failed with status 502
+
+[1;33m[2026-05-24 14:40:37,518 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:40:37,518 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:40:38,376 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:38,376 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:42,520 [31mERROR [32mpython/67-EnvProcess-1[1;33m] [0mFailed to get screenshot.
+[1;33m[2026-05-24 14:40:45,518 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:45,519 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:53,946 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:40:53,947 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:40:58,951 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mrun_multienv_uitars15_v2/221-EnvProcess-2[1;33m] [0m[EnvProcess-2][Domain]: multi_apps
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mrun_multienv_uitars15_v2/222-EnvProcess-2[1;33m] [0m[EnvProcess-2][Example ID]: 22a4636f-8179-4357-8e87-d1743ece1f81
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mrun_multienv_uitars15_v2/223-EnvProcess-2[1;33m] [0m[EnvProcess-2][Instruction]: Please help me convert the file "Meeting-Agenda.docx" to a pdf file and upload to the folder 'meetings' in my google drive.
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mdesktop_env/245-EnvProcess-2[1;33m] [0mResetting environment...
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mdesktop_env/246-EnvProcess-2[1;33m] [0mSwitching task...
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mdesktop_env/247-EnvProcess-2[1;33m] [0mSetting counters...
+[1;33m[2026-05-24 14:40:58,955 [31mINFO [32mdesktop_env/276-EnvProcess-2[1;33m] [0mEnvironment is clean, skipping snapshot revert (provider: docker).
+[1;33m[2026-05-24 14:41:00,424 [31mINFO [32mrun_multienv_uitars15_v2/366-MainProcess[1;33m] [0mAll tasks finished.
+[1;33m[2026-05-24 14:41:01,684 [31mINFO [32msetup/603-EnvProcess-2[1;33m] [0mSetting up proxy: gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:41:05,501 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:08,242 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:10,981 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:13,634 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:16,986 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:20,450 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:24,480 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:27,710 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:31,407 [31mERROR [32msetup/446-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:31,407 [31mINFO [32msetup/378-EnvProcess-2[1;33m] [0mREQUEST ADDRESS: http://localhost:5003/setup/launch
+[1;33m[2026-05-24 14:41:34,202 [31mERROR [32msetup/383-EnvProcess-2[1;33m] [0mFailed to launch application. Status code: 
+[1;33m[2026-05-24 14:41:34,203 [31mINFO [32msetup/634-EnvProcess-2[1;33m] [0mProxy setup completed successfully for gw.dataimpulse.com:823
+[1;33m[2026-05-24 14:41:34,203 [31mINFO [32mdesktop_env/284-EnvProcess-2[1;33m] [0mSetting up environment...
+[1;33m[2026-05-24 14:41:34,203 [31mINFO [32msetup/74-EnvProcess-2[1;33m] [0mtry to connect http://localhost:5003
+[1;33m[2026-05-24 14:41:37,652 [31mINFO [32msetup/99-EnvProcess-2[1;33m] [0mExecuting setup step 1/7: _googledrive_setup
+[1;33m[2026-05-24 14:41:37,652 [31mERROR [32msetup/104-EnvProcess-2[1;33m] [0mSETUP FAILED at step 1/7: _googledrive_setup({'settings_file': 'evaluation_examples/settings/googledrive/settings.yml', 'operation': ['delete', 'mkdirs'], 'args': [{'query': "title = 'Meeting-Agenda.docx' or title = 'Meeting-Agenda.pdf'", 'trash': False}, {'path': ['meetings']}]})
+[1;33m[2026-05-24 14:41:37,653 [31mERROR [32msetup/105-EnvProcess-2[1;33m] [0mError details: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:41:37,653 [31mERROR [32msetup/106-EnvProcess-2[1;33m] [0mTraceback: Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:41:37,653 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-2[1;33m] [0mException in EnvProcess-2 multi_apps/22a4636f-8179-4357-8e87-d1743ece1f81: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+[1;33m[2026-05-24 14:41:37,653 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-2[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'evaluation_examples/settings/googledrive/client_secrets.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 386, in LoadClientConfigFile
+    client_type, client_info = clientsecrets.loadfile(client_config_file)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/oauth2client/clientsecrets.py", line 124, in _loadfile
+    raise InvalidClientSecretsError('Error opening file', exc.filename,
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 101, in setup
+    getattr(self, setup_function)(**parameters)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 777, in _googledrive_setup
+    filelist: GoogleDriveFileList = drive.ListFile({'q': q_file}).GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 162, in GetList
+    for x in self:
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/apiattr.py", line 146, in __next__
+    result = self._GetList()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 57, in _decorated
+    self.auth.LocalWebserverAuth()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 113, in _decorated
+    self.GetFlow()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 443, in GetFlow
+    self.LoadClientConfig()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 366, in LoadClientConfig
+    self.LoadClientConfigFile()
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/pydrive/auth.py", line 388, in LoadClientConfigFile
+    raise InvalidConfigError('Invalid client secrets file %s' % error)
+pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 19, in run_single_example
+    env.reset(task_config=example)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/desktop_env.py", line 285, in reset
+    success = self.setup_controller.setup(self.config, task_config.get("proxy", False) and self.enable_proxy)
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../desktop_env/controllers/setup.py", line 107, in setup
+    raise Exception(f"Setup step {i+1} failed: {setup_function} - {e}") from e
+Exception: Setup step 1 failed: _googledrive_setup - Invalid client secrets file ('Error opening file', 'evaluation_examples/settings/googledrive/client_secrets.json', 'No such file or directory', 2)
+
+[1;33m[2026-05-24 14:41:40,418 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:41:40,418 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:41:44,882 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:41:44,882 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:41:47,460 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:41:47,460 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:41:53,245 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:41:53,246 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:41:55,524 [31mERROR [32mpython/452-EnvProcess-2[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:41:55,524 [31mINFO [32mpython/453-EnvProcess-2[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:42:00,529 [31mERROR [32mpython/459-EnvProcess-2[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:42:01,622 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:42:01,622 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:42:05,530 [31mINFO [32mrun_multienv_uitars15_v2/270-EnvProcess-2[1;33m] [0mEnvProcess-2 cleaning up environment...
+[1;33m[2026-05-24 14:42:05,531 [31mINFO [32mprovider/267-EnvProcess-2[1;33m] [0mStopping VM...
+[1;33m[2026-05-24 14:42:06,627 [31mERROR [32mpython/67-EnvProcess-1[1;33m] [0mFailed to get screenshot.
+[1;33m[2026-05-24 14:42:09,909 [31mINFO [32mrun_multienv_uitars15_v2/274-EnvProcess-2[1;33m] [0mEnvProcess-2 environment closed successfully
+[1;33m[2026-05-24 14:42:10,212 [31mERROR [32mpython/427-EnvProcess-1[1;33m] [0mFailed to start recording. Status code: 502
+[1;33m[2026-05-24 14:42:10,212 [31mINFO [32mpython/428-EnvProcess-1[1;33m] [0mRetrying to start recording.
+[1;33m[2026-05-24 14:42:17,628 [31mERROR [32mpython/427-EnvProcess-1[1;33m] [0mFailed to start recording. Status code: 502
+[1;33m[2026-05-24 14:42:17,629 [31mINFO [32mpython/428-EnvProcess-1[1;33m] [0mRetrying to start recording.
+[1;33m[2026-05-24 14:42:25,870 [31mERROR [32mpython/427-EnvProcess-1[1;33m] [0mFailed to start recording. Status code: 502
+[1;33m[2026-05-24 14:42:25,870 [31mINFO [32mpython/428-EnvProcess-1[1;33m] [0mRetrying to start recording.
+[1;33m[2026-05-24 14:42:30,875 [31mERROR [32mpython/434-EnvProcess-1[1;33m] [0mFailed to start recording.
+[1;33m[2026-05-24 14:42:30,876 [31mINFO [32muitars15_v2/862-EnvProcess-1[1;33m] [0mMessages: {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': '[BASE64_IMAGE_DATA]'}}]}
+2026-05-24 14:42:32.478 | ERROR    | mm_agents.uitars15_v2:predict:875 - Error when parsing response from client, with error:
+'dict' object has no attribute 'strip'
+[1;33m[2026-05-24 14:42:32,478 [31mINFO [32muitars15_v2/862-EnvProcess-1[1;33m] [0mMessages: {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': '[BASE64_IMAGE_DATA]'}}]}
+2026-05-24 14:42:34.635 | ERROR    | mm_agents.uitars15_v2:predict:875 - Error when parsing response from client, with error:
+'dict' object has no attribute 'strip'
+[1;33m[2026-05-24 14:42:34,635 [31mINFO [32muitars15_v2/862-EnvProcess-1[1;33m] [0mMessages: {'role': 'user', 'content': [{'type': 'image_url', 'image_url': {'url': '[BASE64_IMAGE_DATA]'}}]}
+2026-05-24 14:42:37.768 | ERROR    | mm_agents.uitars15_v2:predict:875 - Error when parsing response from client, with error:
+'dict' object has no attribute 'strip'
+2026-05-24 14:42:37.768 | ERROR    | mm_agents.uitars15_v2:predict:859 - Reach max retry times to fetch response from client, as error flag.
+[1;33m[2026-05-24 14:42:37,768 [31mINFO [32mlib_run_single/48-EnvProcess-1[1;33m] [0mStep 1: FAIL
+[1;33m[2026-05-24 14:42:37,768 [31mINFO [32mdesktop_env/395-EnvProcess-1[1;33m] [0mStep 1 in trajectory 10 with action: FAIL
+[1;33m[2026-05-24 14:42:44,636 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:42:44,636 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:42:51,977 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:42:51,978 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:42:59,173 [31mERROR [32mpython/60-EnvProcess-1[1;33m] [0mFailed to get screenshot. Status code: 502
+[1;33m[2026-05-24 14:42:59,174 [31mINFO [32mpython/61-EnvProcess-1[1;33m] [0mRetrying to get screenshot.
+[1;33m[2026-05-24 14:43:04,175 [31mERROR [32mpython/67-EnvProcess-1[1;33m] [0mFailed to get screenshot.
+[1;33m[2026-05-24 14:43:04,175 [31mINFO [32mlib_run_single/51-EnvProcess-1[1;33m] [0mReward: 0.00
+[1;33m[2026-05-24 14:43:04,175 [31mINFO [32mlib_run_single/52-EnvProcess-1[1;33m] [0mDone: True
+[1;33m[2026-05-24 14:43:04,176 [31mERROR [32mrun_multienv_uitars15_v2/246-EnvProcess-1[1;33m] [0mException in EnvProcess-1 multi_apps/3c8f201a-009d-4bbe-8b65-a6f8b35bb57f: a bytes-like object is required, not 'NoneType'
+[1;33m[2026-05-24 14:43:04,176 [31mERROR [32mrun_multienv_uitars15_v2/247-EnvProcess-1[1;33m] [0mTraceback (most recent call last):
+  File "/share/home/group3/agent/OSWorld/scripts/python/run_multienv_uitars15_v2.py", line 234, in run_env_tasks
+    lib_run_single.run_single_example(
+  File "/share/home/group3/agent/OSWorld/scripts/python/../../lib_run_single.py", line 56, in run_single_example
+    _f.write(obs['screenshot'])
+TypeError: a bytes-like object is required, not 'NoneType'
+
+[1;33m[2026-05-24 14:43:07,231 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:43:07,231 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:43:15,920 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:43:15,920 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:43:23,959 [31mERROR [32mpython/452-EnvProcess-1[1;33m] [0mFailed to stop recording. Status code: 502
+[1;33m[2026-05-24 14:43:23,959 [31mINFO [32mpython/453-EnvProcess-1[1;33m] [0mRetrying to stop recording.
+[1;33m[2026-05-24 14:43:28,964 [31mERROR [32mpython/459-EnvProcess-1[1;33m] [0mFailed to stop recording.
+[1;33m[2026-05-24 14:43:33,966 [31mINFO [32mrun_multienv_uitars15_v2/270-EnvProcess-1[1;33m] [0mEnvProcess-1 cleaning up environment...
+[1;33m[2026-05-24 14:43:33,966 [31mINFO [32mprovider/267-EnvProcess-1[1;33m] [0mStopping VM...
+[1;33m[2026-05-24 14:43:37,653 [31mINFO [32mrun_multienv_uitars15_v2/274-EnvProcess-1[1;33m] [0mEnvProcess-1 environment closed successfully
+[1;33m[2026-05-24 14:43:37,678 [31mINFO [32mrun_multienv_uitars15_v2/388-MainProcess[1;33m] [0mAverage score: 0
+[1;33m[2026-05-24 14:43:37,678 [31mINFO [32mrun_multienv_uitars15_v2/521-MainProcess[1;33m] [0mMain process final cleanup...

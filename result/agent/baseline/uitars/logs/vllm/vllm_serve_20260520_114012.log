@@ -1,0 +1,509 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/share/home/group3/agent/OSWorld/./ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 7, in <module>
+    from .plot import SweepPlotArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot.py", line 21, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/share/home/group3/agent/OSWorld/./ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 9, in <module>
+    from .plot_pareto import SweepPlotParetoArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot_pareto.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299] 
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299]        █     █     █▄   ▄█
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.19.0
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299]   █▄█▀ █     █     █     █  model   UI-TARS-1.5-7B
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:299] 
+(APIServer pid=682327) INFO 05-20 11:40:35 [utils.py:233] non-default args: {'model_tag': 'UI-TARS-1.5-7B', 'host': '127.0.0.1', 'model': 'UI-TARS-1.5-7B', 'max_model_len': 32768, 'served_model_name': ['ByteDance-Seed/UI-TARS-1.5-7B'], 'tensor_parallel_size': 2}
+(APIServer pid=682327) INFO 05-20 11:40:35 [model.py:549] Resolved architecture: Qwen2_5_VLForConditionalGeneration
+(APIServer pid=682327) INFO 05-20 11:40:35 [model.py:1678] Using max model len 32768
+(APIServer pid=682327) INFO 05-20 11:40:35 [scheduler.py:238] Chunked prefill is enabled with max_num_batched_tokens=8192.
+(APIServer pid=682327) INFO 05-20 11:40:35 [vllm.py:790] Asynchronous scheduling is enabled.
+(APIServer pid=682327) The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 7, in <module>
+    from .plot import SweepPlotArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot.py", line 21, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 9, in <module>
+    from .plot_pareto import SweepPlotParetoArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot_pareto.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+(EngineCore pid=687690) INFO 05-20 11:40:46 [core.py:105] Initializing a V1 LLM engine (v0.19.0) with config: model='UI-TARS-1.5-7B', speculative_config=None, tokenizer='UI-TARS-1.5-7B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=2, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=ByteDance-Seed/UI-TARS-1.5-7B, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::kda_attention', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': False, 'alignment_asserts': False, 'scalar_asserts': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}
+(EngineCore pid=687690) WARNING 05-20 11:40:46 [multiproc_executor.py:1014] Reducing Torch parallelism from 64 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+(EngineCore pid=687690) INFO 05-20 11:40:46 [multiproc_executor.py:134] DP group leader: node_rank=0, node_rank_within_dp=0, master_addr=127.0.0.1, mq_connect_ip=10.252.130.65 (local), world_size=2, local_world_size=2
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 7, in <module>
+    from .plot import SweepPlotArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot.py", line 21, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 9, in <module>
+    from .plot_pareto import SweepPlotParetoArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot_pareto.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 7, in <module>
+    from .plot import SweepPlotArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot.py", line 21, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/usr/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/usr/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/usr/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/bin/vllm", line 3, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/__init__.py", line 9, in <module>
+    from vllm.entrypoints.cli.benchmark.sweep import BenchmarkSweepSubcommand
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/benchmark/sweep.py", line 5, in <module>
+    from vllm.benchmarks.sweep.cli import add_cli_args, main
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/cli.py", line 9, in <module>
+    from .plot_pareto import SweepPlotParetoArgs
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/benchmarks/sweep/plot_pareto.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/__init__.py", line 129, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+(Worker pid=689118) INFO 05-20 11:40:54 [parallel_state.py:1400] world_size=2 rank=0 local_rank=0 distributed_init_method=tcp://127.0.0.1:44205 backend=nccl
+(Worker pid=689119) INFO 05-20 11:40:55 [parallel_state.py:1400] world_size=2 rank=1 local_rank=1 distributed_init_method=tcp://127.0.0.1:44205 backend=nccl
+(Worker pid=689119) <frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(Worker pid=689118) <frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.cudart module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.runtime module instead.
+(Worker pid=689118) <frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(Worker pid=689119) <frozen importlib._bootstrap_external>:1184: FutureWarning: The cuda.nvrtc module is deprecated and will be removed in a future release, please switch to use the cuda.bindings.nvrtc module instead.
+(Worker pid=689118) INFO 05-20 11:40:56 [pynccl.py:111] vLLM is using nccl==2.27.5
+(Worker pid=689118) WARNING 05-20 11:40:57 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.0 not supported, communicator is not available.
+(Worker pid=689119) WARNING 05-20 11:40:57 [symm_mem.py:66] SymmMemCommunicator: Device capability 8.0 not supported, communicator is not available.
+(Worker pid=689118) INFO 05-20 11:40:57 [parallel_state.py:1716] rank 0 in world size 2 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank N/A, EPLB rank N/A
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857] WorkerProc failed to start.
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857] Traceback (most recent call last):
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 826, in worker_main
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     worker = WorkerProc(*args, **kwargs)
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     return func(*args, **kwargs)
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 605, in __init__
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.worker.init_device()
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/worker_base.py", line 312, in init_device
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.worker.init_device()  # type: ignore
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     return func(*args, **kwargs)
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/gpu_worker.py", line 283, in init_device
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.requested_memory = request_memory(init_snapshot, self.cache_config)
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/utils.py", line 413, in request_memory
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     raise ValueError(
+(Worker pid=689118) ERROR 05-20 11:40:57 [multiproc_executor.py:857] ValueError: Free memory on device cuda:0 (40.01/79.25 GiB) on startup is less than desired GPU memory utilization (0.9, 71.33 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857] WorkerProc failed to start.
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857] Traceback (most recent call last):
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 826, in worker_main
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     worker = WorkerProc(*args, **kwargs)
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     return func(*args, **kwargs)
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 605, in __init__
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.worker.init_device()
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/worker_base.py", line 312, in init_device
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.worker.init_device()  # type: ignore
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     return func(*args, **kwargs)
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/gpu_worker.py", line 283, in init_device
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     self.requested_memory = request_memory(init_snapshot, self.cache_config)
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/worker/utils.py", line 413, in request_memory
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857]     raise ValueError(
+(Worker pid=689119) ERROR 05-20 11:40:57 [multiproc_executor.py:857] ValueError: Free memory on device cuda:1 (42.9/79.25 GiB) on startup is less than desired GPU memory utilization (0.9, 71.33 GiB). Decrease GPU memory utilization or reduce GPU memory used by other processes.
+[rank0]:[W520 11:40:58.708485161 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108] EngineCore failed to start.
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108] Traceback (most recent call last):
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 1082, in run_engine_core
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     engine_core = EngineCoreProc(*args, engine_index=dp_rank, **kwargs)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     return func(*args, **kwargs)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 848, in __init__
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     super().__init__(
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 114, in __init__
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     self.model_executor = executor_class(vllm_config)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 101, in __init__
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     super().__init__(vllm_config)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     return func(*args, **kwargs)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/abstract.py", line 103, in __init__
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     self._init_executor()
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 190, in _init_executor
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     self.workers = WorkerProc.wait_for_ready(unready_workers)
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 736, in wait_for_ready
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108]     raise e from None
+(EngineCore pid=687690) ERROR 05-20 11:40:59 [core.py:1108] Exception: WorkerProc initialization failed due to an exception in a background process. See stack trace for root cause.
+(EngineCore pid=687690) Process EngineCore:
+(EngineCore pid=687690) Traceback (most recent call last):
+(EngineCore pid=687690)   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+(EngineCore pid=687690)     self.run()
+(EngineCore pid=687690)   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+(EngineCore pid=687690)     self._target(*self._args, **self._kwargs)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 1112, in run_engine_core
+(EngineCore pid=687690)     raise e
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 1082, in run_engine_core
+(EngineCore pid=687690)     engine_core = EngineCoreProc(*args, engine_index=dp_rank, **kwargs)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(EngineCore pid=687690)     return func(*args, **kwargs)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 848, in __init__
+(EngineCore pid=687690)     super().__init__(
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core.py", line 114, in __init__
+(EngineCore pid=687690)     self.model_executor = executor_class(vllm_config)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 101, in __init__
+(EngineCore pid=687690)     super().__init__(vllm_config)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(EngineCore pid=687690)     return func(*args, **kwargs)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/abstract.py", line 103, in __init__
+(EngineCore pid=687690)     self._init_executor()
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 190, in _init_executor
+(EngineCore pid=687690)     self.workers = WorkerProc.wait_for_ready(unready_workers)
+(EngineCore pid=687690)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/executor/multiproc_executor.py", line 736, in wait_for_ready
+(EngineCore pid=687690)     raise e from None
+(EngineCore pid=687690) Exception: WorkerProc initialization failed due to an exception in a background process. See stack trace for root cause.
+(APIServer pid=682327) Traceback (most recent call last):
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/./ui_tars_venv/bin/vllm", line 6, in <module>
+(APIServer pid=682327)     sys.exit(main())
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/main.py", line 75, in main
+(APIServer pid=682327)     args.dispatch_function(args)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/cli/serve.py", line 122, in cmd
+(APIServer pid=682327)     uvloop.run(run_server(args))
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/uvloop/__init__.py", line 69, in run
+(APIServer pid=682327)     return loop.run_until_complete(wrapper())
+(APIServer pid=682327)   File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/uvloop/__init__.py", line 48, in wrapper
+(APIServer pid=682327)     return await main
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/openai/api_server.py", line 670, in run_server
+(APIServer pid=682327)     await run_server_worker(listen_address, sock, args, **uvicorn_kwargs)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/openai/api_server.py", line 684, in run_server_worker
+(APIServer pid=682327)     async with build_async_engine_client(
+(APIServer pid=682327)   File "/usr/lib/python3.10/contextlib.py", line 199, in __aenter__
+(APIServer pid=682327)     return await anext(self.gen)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/openai/api_server.py", line 100, in build_async_engine_client
+(APIServer pid=682327)     async with build_async_engine_client_from_engine_args(
+(APIServer pid=682327)   File "/usr/lib/python3.10/contextlib.py", line 199, in __aenter__
+(APIServer pid=682327)     return await anext(self.gen)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/entrypoints/openai/api_server.py", line 136, in build_async_engine_client_from_engine_args
+(APIServer pid=682327)     async_llm = AsyncLLM.from_vllm_config(
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/async_llm.py", line 225, in from_vllm_config
+(APIServer pid=682327)     return cls(
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/async_llm.py", line 154, in __init__
+(APIServer pid=682327)     self.engine_core = EngineCoreClient.make_async_mp_client(
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(APIServer pid=682327)     return func(*args, **kwargs)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 130, in make_async_mp_client
+(APIServer pid=682327)     return AsyncMPClient(*client_args)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/tracing/otel.py", line 178, in sync_wrapper
+(APIServer pid=682327)     return func(*args, **kwargs)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 887, in __init__
+(APIServer pid=682327)     super().__init__(
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/core_client.py", line 535, in __init__
+(APIServer pid=682327)     with launch_core_engines(
+(APIServer pid=682327)   File "/usr/lib/python3.10/contextlib.py", line 142, in __exit__
+(APIServer pid=682327)     next(self.gen)
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/utils.py", line 998, in launch_core_engines
+(APIServer pid=682327)     wait_for_engine_startup(
+(APIServer pid=682327)   File "/share/home/group3/agent/OSWorld/ui_tars_venv/lib/python3.10/site-packages/vllm/v1/engine/utils.py", line 1057, in wait_for_engine_startup
+(APIServer pid=682327)     raise RuntimeError(
+(APIServer pid=682327) RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
