@@ -1,6 +1,7 @@
 # GenAI-Group3
 
 Group 3 course project repository for GUI grounding, GUI agents, and XR GUI grounding.
+Github Repo: https://github.com/3bai233/GenAI-Group3/
 
 ## Overview
 
