@@ -6,7 +6,7 @@ Group 3 course project repository for GUI grounding, GUI agents, and XR GUI grou
 
 This repository contains three related parts:
 
-- `Grounding`: BAMI-based GUI grounding code and ScreenSpot-Pro style evaluation utilities.
+- `Grounding`: GUI grounding code and ScreenSpot-Pro style evaluation utilities.
 - `Agent`: OSWorld GUI agent baselines and BAMI-enhanced agent variants.
 - `XR`: EgoXR-GUI benchmark evaluation, synthetic XR GUI data generation, and supervised fine-tuning code.
 
