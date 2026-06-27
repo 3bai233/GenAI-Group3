@@ -1,0 +1,1 @@
+{"Error": "multi_apps/81c425f5-78f3-4771-afd6-3d2973825947 - Setup step 2 failed: _open_setup - Failed to open file '/home/user/Desktop/OSP_Envelope_Price-List_2023_5000.xlsx' after 3 attempts. Last error: HTTPConnectionPool(host='localhost', port=5016): Read timed out. (read timeout=150)"}

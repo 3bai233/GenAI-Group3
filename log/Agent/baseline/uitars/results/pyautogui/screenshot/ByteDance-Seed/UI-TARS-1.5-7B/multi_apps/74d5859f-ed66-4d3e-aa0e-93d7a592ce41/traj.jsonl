@@ -1,0 +1,1 @@
+{"Error": "multi_apps/74d5859f-ed66-4d3e-aa0e-93d7a592ce41 - Setup step 3 failed: _chrome_open_tabs_setup - BrowserType.connect_over_cdp: socket hang up\nCall log:\n  - <ws preparing> retrieving websocket url from http://localhost:9238\n"}
