@@ -1,0 +1,53 @@
+{
+    "swanlab_project": "EgoXR-finetune",
+    "swanlab_workspace": "YOUR_WORKSPACE",
+    "swanlab_experiment": "qwen3-vl-8b-lora-ddp",
+    "data_format": "bbox_annotation",
+    "json_path": "YOUR_JSON_PATH",
+    "img_dir": "YOUR_IMG_DIR",
+    "language": "en",
+    "test_ratio": 0.02,
+    "seed": 42,
+    "split_mode": "full",
+    "use_direct_instruction": true,
+
+    "eval_json_path": "YOUR_EVAL_JSON_PATH",
+    "eval_img_dir": "YOUR_EVAL_IMG_DIR",
+    "eval_task_types": ["Semantic-matching"],
+    "test_eval_steps": 100,
+
+    "model_id": "YOUR_MODEL_ID",
+    "output_dir": "YOUR_OUTPUT_DIR",
+
+    "loss_type": "text",
+    "lm_weight": 0.0,
+
+    "lora_rank": 128,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+
+    "enable_vision_lora": false,
+
+    "ddp_backend": "nccl",
+    "ddp_find_unused_parameters": false,
+
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "num_train_epochs": 8,
+    "learning_rate": 1e-4,
+    "warmup_steps": 50,
+    "lr_scheduler_type": "cosine",
+    "logging_steps": 5,
+    "save_steps": 50,
+    "eval_steps": 50,
+    "save_total_limit": 5,
+    "dataloader_num_workers": 4,
+    "report_to": "none",
+
+    "max_pixels": 1003520,
+    "min_pixels": 263424,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {"use_reentrant": false}
+}

@@ -9,3 +9,11 @@ __pycache__/
 *.state.json
 eval_results*/
 **/pipelines/
+
+# SFT checkpoint artifacts (too large for git; reproduce locally)
+checkpoint-*/
+**/checkpoint-*/
+*.pt
+**/*.pt
+tokenizer.json
+**/tokenizer.json
